@@ -6,6 +6,6 @@ app.use(cors());
 const PORT = 4545;
 
 app.get("/",(req,res)=>{
-    res.send(<body>Hello World</body>)
+    res.send("hello world")
 })
 app.listen(PORT,()=>console.log(`listening on port... ${PORT}`));
